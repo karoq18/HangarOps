@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    background-color: #F5F7FA;
+    }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: Montserrat, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: inherit;
+    }
+
+.h4, h4 {
+    font-size: 1.32rem;
+    }
+
+.bg-light {
+    background-color: #BABFC7 !important;
+    }
+
+p {
+    margin-bottom: 1rem;
+    }
+
+.danger {
+    color: #FF7588 !important;
+    }
+
+.success {
+    color: #16D39A !important;
+    }
+
+.warning {
+    color: #FFA87D !important;
+}
+
+.primary {
+    color: #00B5B8 !important;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: .25rem;
+    margin-bottom: 1.875rem;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.5rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+d-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.media {
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.align-self-center {
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.icon-rocket {
+  width: 48px;
+  height: 48px;
+  background: url('../icon/airplane1.svg') no-repeat center center;
+  background-size: contain;
+  fill: currentColor;
+  color: currentColor;
+  }
+
+.icon-pilot {
+  width: 48px;
+  height: 48px;
+  background: url('../icon/pilot.svg') no-repeat center center;
+  background-size: contain;
+  }
+
+.icon-mechanic {
+  width: 48px;
+  height: 48px;
+  background: url('../icon/mechanic.svg') no-repeat center center;
+  background-size: contain;
+  }
+
+.icon-organization {
+  width: 48px;
+  height: 48px;
+  background: url('../icon/organization.svg') no-repeat center center;
+  background-size: contain;
+  }
